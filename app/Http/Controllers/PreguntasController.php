@@ -14,7 +14,7 @@ class PreguntasController extends Controller
      */
     public function index()
     {
-        //
+        return view('/administrador');
     }
 
     /**
@@ -24,7 +24,7 @@ class PreguntasController extends Controller
      */
     public function create()
     {
-        //
+        return view('/admin/adminPreguntas');
     }
 
     /**

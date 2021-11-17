@@ -36,7 +36,7 @@
             <br>
             <div class="container padre">
                 <div class="hijo">
-                    <a href="" class="btn btn-warning" role="button">Evaluación</a>
+                    <a class="btn btn-success" role="button" href="{{ url('/admin/create') }}">Evaluación</a>
                 </div>
 
                 <div class="hijo">
