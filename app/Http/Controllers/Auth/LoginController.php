@@ -46,7 +46,7 @@ class LoginController extends Controller
         //hace la comparacion con el tipo de usuario, los 1 los tomara como administradores
         if(Auth::user()->tipo_usuario)
         {
-            return '/amdmin/panel';
+            return '/administrador';
         }//por el contrario los siguientes usuarios que se registren seran identificados como clientes
         return '/home';
     }

@@ -7,3 +7,23 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 @import '~bootstrap-icons/font/bootstrap-icons';
+
+
+.div-1 {
+    background-color: #261928;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+  }
+  .hijo {
+    padding: 10px;
+    height: 30px;
+    margin: 20px;
+    width: 200px;
+  }
+
+  p{
+      color: #ffffff;
+  }
